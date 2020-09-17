@@ -229,7 +229,7 @@ nav {
     padding-bottom: 150px;
 }
 
-.box-items{
+.box-items {
     width: 100%;
     margin: auto;
     height: 150px;
@@ -238,8 +238,8 @@ nav {
 
 .info-box-items {
     float: left;
-    width: 31%;
-    padding: 40px 0px;
+    width: calc(96% / 3);
+    padding: 40px 4px;
     margin-right: 20px;
 }
 
@@ -257,6 +257,111 @@ nav {
 }
 
 /*_______Fine Sezione Info Box_______*/
+
+
+
+/*_______Inizio Sezione mobile-security-buyplan_______*/
+
+.mobile-app {
+    width: 100%;
+    margin-top: 100px;
+    padding: 80px 0;
+    background-color: #011B50;
+    background-image: url(https://www.fluentify.com/home/wp-content/uploads/2019/12/App.png);
+    background-repeat: no-repeat;
+    background-position: 1070px 0;
+}
+
+.mobile-app h2,.mobile-app p {
+    color: #fff;
+}
+
+.mobile-app p {
+    padding: 15px 0;
+    line-height: 1.4;
+}
+
+.mobile-app a {
+    color: #64DE82;
+    text-transform: none;
+    font-weight: bold;
+
+}
+
+.app-text {
+    display: inline-block;
+    width: 49%;
+}
+
+.security {
+    height: 400px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.security p {
+    color: #727272;
+}
+
+.security-box {
+    width: 100%;
+    padding: 20px 0;
+    margin: auto;
+    float: left;
+}
+
+.security-box img {
+    float: left;
+    max-width: 361px;
+    max-height: 360px;
+    transform: translateX(75px);
+}
+
+.security-text {
+    padding: 105px 0;
+    float: right;
+    width: 50%;
+    line-height: 1.5;
+}
+
+.security-text p{
+    padding-top: 20px;
+}
+
+.buy-plan {
+    height: 210px;
+    width: 100%;
+    background-color: #2A4781;
+}
+
+.text-left {
+    width: 50%;
+    float:left;
+    padding: 57px 0;
+}
+
+.text-right {
+    width: 50%;
+    float:left;
+    padding: 69px 0;
+}
+
+.text-right p, .text-left h2 {
+    color:#fff;
+}
+/*_______Fine Sezione mobile-security-buyplan_______*/
+
+
+
+/*_______Inizio Footer_______*/
+
+footer {
+    background-color: #001A4F;
+    padding: 40px 20px;
+    height: 250px;
+}
+
+/*_______Fine Footer_______*/
 .container::after {
     content: '';
     display: inline-table;
