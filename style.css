@@ -63,7 +63,6 @@ ul {
 
 li {
     display: inline-block;
-    float: left;
 }
 
 .button {
@@ -358,7 +357,85 @@ nav {
 footer {
     background-color: #001A4F;
     padding: 40px 20px;
-    height: 250px;
+    height: 400px;
+}
+
+.footer-main {
+    margin-left: 150px;
+    height: 200px;
+}
+
+.logo-dati {
+    display: inline-block;
+    float: left;
+    width: 11%;
+    padding-top: 40px;
+}
+
+.logo-dati p {
+    padding-top: 20px;
+    font-size: 14.5px;
+    line-height: 1.4;
+    color: #fff;
+}
+
+a.logo-footer {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://www.fluentify.com/home/wp-content/themes/fluentify/assets/files/Logo-fluentify.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 125px;
+    height: 42px;
+}
+
+.info-columns {
+    width: 80%;
+    margin-left: 70px;
+    padding-bottom: 50px;
+    display: inline-block;
+    border-bottom: 2px solid white;
+}
+
+.column {
+    padding-right: 50px;
+    float:left;
+    width: 15%;
+}
+
+
+.column a, .column li, .logo-dati a {
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: none;
+    float: none;
+    display: block;
+}
+
+.column a {
+    color: #BFC6D3;
+    line-height: 1.6;
+}
+
+.column p {
+    font-size: 16px;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.email a {
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: none;
+    float: none;
+    display: block;
+    float: left;
+    width: 11%;
+}
+
+.grid:last-child {
+    padding-top: 40px;
 }
 
 /*_______Fine Footer_______*/
